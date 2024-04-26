@@ -32,6 +32,7 @@ struct Cadastro: View {
                             
                         }
                         TextField("", text: $nome)
+                        .padding(.horizontal, 10)
                             .frame(width: 250, height: 50)
                             .overlay (
                                 RoundedRectangle(cornerRadius: 8)
@@ -44,6 +45,7 @@ struct Cadastro: View {
                             Spacer()
                         }
                         TextField("", text: $email)
+                        .padding(.horizontal, 10)
                             .frame(width: 250, height: 50)
                             .overlay (
                                 RoundedRectangle(cornerRadius: 8)
@@ -56,6 +58,7 @@ struct Cadastro: View {
                             Spacer()
                         }
                         TextField("", text: $iEnsino)
+                        .padding(.horizontal, 10)
                             .frame(width: 250, height: 50)
                             .overlay (
                                 RoundedRectangle(cornerRadius: 8)
@@ -68,6 +71,7 @@ struct Cadastro: View {
                             Spacer()
                         }
                         TextField("", text: $senha)
+                        .padding(.horizontal, 10)
                             .frame(width: 250, height: 50)
                             .overlay (
                                 RoundedRectangle(cornerRadius: 8)

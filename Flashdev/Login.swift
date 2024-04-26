@@ -48,7 +48,8 @@ struct Login: View {
                                 .padding(.leading, 63 )
                             Spacer()
                         }
-                        TextField("", text: $senha)
+                        SecureField("", text: $senha)
+                        .padding(.horizontal, 10)
                             .frame(width: 250, height: 50)
                             .overlay (
                                 RoundedRectangle(cornerRadius: 8)

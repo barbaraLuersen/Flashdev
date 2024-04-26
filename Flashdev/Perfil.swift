@@ -18,14 +18,14 @@ struct Perfil: View {
                 }.padding(.init(top: 0, leading: 32, bottom: 40, trailing: 0))
                 VStack{
                     HStack{
-                        Image("maria")
+                        Image("fotoPerfil")
                             .resizable()
                                 .scaledToFill()
                                 .frame(width: 150, height: 150)
                         }
                     }.clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/).shadow(radius: 4, y:4)
                     HStack{
-                        Text("Maria")
+                        Text("Bárbara")
                             .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                             .font(.title2)
                     }

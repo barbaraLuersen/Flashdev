@@ -43,3 +43,10 @@
   <li><strong>Backend</strong>: Node-RED</li>
   <li><strong>Banco de Dados</strong>: Cloudant da IBM</li>
 </ul>
+
+<h3>Print Telas Principais</h3>
+![Home](https://github.com/barbaraLuersen/Flashdev/assets/117361407/7fbe3e01-8210-434a-a4a1-c5ab948039c4)
+![Flashcard](https://github.com/barbaraLuersen/Flashdev/assets/117361407/7a8d482d-b84e-4594-801d-b8ab2912871a)
+![Desafios](https://github.com/barbaraLuersen/Flashdev/assets/117361407/32a86006-78a5-4f16-a6f6-3e81273e1d96)
+
+
